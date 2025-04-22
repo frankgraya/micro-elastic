@@ -1,8 +1,34 @@
-# 🌐 Microservicios con Spring Cloud, Eureka y API Gateway
+🌐 Microservicios con Spring Cloud, Eureka y API Gateway
 
 Este proyecto es una demostración funcional de una arquitectura basada en **microservicios** utilizando **Spring Boot**, **Eureka Server** y **API Gateway**. Permite enrutar peticiones a diferentes servicios registrados bajo distintas **IP's** a través de un único punto de entrada.
 
 ---
+
+
+🚀 Características
+📡 Eureka Server: Descubrimiento de servicios dinámico.
+
+🔀 API Gateway: Enrutamiento inteligente y gestión centralizada de llamadas a servicios.
+
+🔗 Comunicación entre servicios a través de IPs distintas.
+
+🧩 Arquitectura extensible para nuevos servicios.
+
+🛡️ Preparado para implementar control de acceso, filtros y seguridad
+
+🛠️ Tecnologías
+Java + Spring Boot
+
+Spring Cloud Eureka
+
+Spring Cloud Gateway
+
+REST APIs
+
+Docker (opcional para despliegue) pero se implementara...
+
+Maven/Gradle
+
 
 ## 📦 Estructura del Proyecto
 
@@ -33,6 +59,18 @@ REST APIs
 🧭 Permite enrutar solicitudes a servicios en distintas IPs
 
 💬 Facilita la escalabilidad y comunicación entre microservicios
+
+
+💡 Casos de uso
+Proyectos distribuidos en diferentes servidores o nubes.
+
+Integración de servicios legacy.
+
+Pruebas de balanceo y fallos entre servicios distribuidos.
+
+📞 Contribuciones
+¡Pull requests bienvenidos! Si tienes ideas o mejoras, no dudes en colaborar.
+
 
 ▶️ Cómo ejecutar
 Clona este repositorio:
